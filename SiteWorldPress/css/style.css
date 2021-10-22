@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+header {
+    height: 800px;
+    background: url('../img/headerImage.jpg') center center/cover no-repeat;
+}
+
+.logo .logo__img, .logo .logo__text{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.logo__text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 880px;
+}
