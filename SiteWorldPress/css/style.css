@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     box-sizing: border-box;
 }
 
@@ -12,11 +12,16 @@ body {
 header {
     height: 800px;
     background: url('../img/headerImage.jpg') center center/cover no-repeat;
+    padding: 39px 0px 62px 0px;
 }
 
 .logo .logo__img, .logo .logo__text{
     display: block;
     margin: 0 auto;
+}
+
+.logo .logo__text {
+    margin-top: 14px;
 }
 
 
@@ -29,5 +34,301 @@ header {
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 880px;
+}
+
+.header-info__title {
+    color: #f9bf3b;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-info h1:first-child {
+    margin-top: 54px;
+}
+
+.header-info h2:last-child {
+    margin-bottom: 0px;
+}
+
+.header-info .header-info__big-title {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header-info__big-block {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.header-info__big-block .line {
+    width: 292px;
+    height: 2px;
+    background-color: white;
+    margin-top: 7px;
+}
+
+.promo-text {
+    display: block;
+    margin: 0 auto;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 313px;
+    height: 72px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+button {
+    border-style: none;
+    min-width: 313px;
+    min-height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight:100;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 7px;
+    color: #FFFFFF;
+    
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+}
+
+.more p {
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.25;
+}
+
+.more img {
+   display: block;
+   margin: 0 auto;
+}
+
+
+
+/* Основной блок */
+
+.waiting {
+    padding-top: 88px;
+    background: #EFEFEF;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 75px;
+}
+.waiting-header {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting__line__yellow {
+    display: block;
+    margin: 0 auto;
+    height: 7px;
+    width: 220px;
+    border: none;
+    background: #F9BF3B;
+}
+
+.waiting__content {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__item {
+    width: 370px;
+    min-height: 85px;
+    margin-right: 48px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+
+    color: #4A4A4A;
+}
+
+
+/* More information */
+.optimization {
+    min-height: 503px;
+    margin-top: 47px;
+    margin-left: 150px;
+    padding-right: 300px;
+    background: url('../img/Layer_7.jpg') left no-repeat;
+}
+.optimization__text {
+    margin-left: 632px;
+    padding-top: 61px;
+}
+.optimization__text__header {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-bottom: 5px;
+}
+
+.optimization__text p {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+/*At the end of education*/
+.achievments-after-education {
+    background: url('../img/second_bg.png') center center/cover no-repeat;
+    padding-top: 86px;
+}
+
+.achievments-after-education h2 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+.achievements-after-education__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 436px;
+    margin-right: 433px;
+    margin-top: 39px;
+    padding-bottom: 60px;
+}
+
+.achievements-after-education__list__item {
+    margin-right: 12px;
+    align-self: center;
+}
+
+.achievments-after-education img  {
+    display: block;
+    margin: 0 auto;
+}
+
+.achievements-after-education__list p {
+    width: 190px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.bonus {
+    background-color:#EFEFEF;
+    padding-bottom: 88px;
+}
+
+.bonus img {
+    display: block;
+    margin:0 auto;
+    padding-top: 88px;
+}
+
+.bonus p {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+    width: 1161px;
+    color: #252525;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.date {
+    margin-left: 673px;
+    margin-right: 670px;
+    padding-bottom: 53px;
+}
+.date img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 81px;
+}
+
+.date .heading {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.date .blue {
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.date .places {
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+footer {
+    height: 169px;
+    background-color: #1A1A1A;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
 }
